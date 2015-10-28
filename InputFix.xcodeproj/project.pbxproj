@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D53149C21BDD157E000F4677 /* InputFix.h in Headers */ = {isa = PBXBuildFile; fileRef = D53149C11BDD157E000F4677 /* InputFix.h */; };
+		D53149C41BDD157E000F4677 /* InputFix.m in Sources */ = {isa = PBXBuildFile; fileRef = D53149C31BDD157E000F4677 /* InputFix.m */; };
+		D53149CB1BDD16BD000F4677 /* org_oxygen_inputfixosx_InputFix__.h in Headers */ = {isa = PBXBuildFile; fileRef = D53149CA1BDD16BD000F4677 /* org_oxygen_inputfixosx_InputFix__.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D53149BE1BDD157E000F4677 /* libinputfix.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libinputfix.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53149C11BDD157E000F4677 /* InputFix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputFix.h; sourceTree = "<group>"; };
+		D53149C31BDD157E000F4677 /* InputFix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputFix.m; sourceTree = "<group>"; };
+		D53149CA1BDD16BD000F4677 /* org_oxygen_inputfixosx_InputFix__.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_oxygen_inputfixosx_InputFix__.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D53149BB1BDD157E000F4677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D53149B51BDD157E000F4677 = {
+			isa = PBXGroup;
+			children = (
+				D53149C01BDD157E000F4677 /* InputFix */,
+				D53149BF1BDD157E000F4677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D53149BF1BDD157E000F4677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D53149BE1BDD157E000F4677 /* libinputfix.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D53149C01BDD157E000F4677 /* InputFix */ = {
+			isa = PBXGroup;
+			children = (
+				D53149CA1BDD16BD000F4677 /* org_oxygen_inputfixosx_InputFix__.h */,
+				D53149C11BDD157E000F4677 /* InputFix.h */,
+				D53149C31BDD157E000F4677 /* InputFix.m */,
+			);
+			path = InputFix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D53149BC1BDD157E000F4677 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53149CB1BDD16BD000F4677 /* org_oxygen_inputfixosx_InputFix__.h in Headers */,
+				D53149C21BDD157E000F4677 /* InputFix.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D53149BD1BDD157E000F4677 /* InputFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53149C71BDD157E000F4677 /* Build configuration list for PBXNativeTarget "InputFix" */;
+			buildPhases = (
+				D53149BA1BDD157E000F4677 /* Sources */,
+				D53149BB1BDD157E000F4677 /* Frameworks */,
+				D53149BC1BDD157E000F4677 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InputFix;
+			productName = InputFix;
+			productReference = D53149BE1BDD157E000F4677 /* libinputfix.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D53149B61BDD157E000F4677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Oxygen;
+				TargetAttributes = {
+					D53149BD1BDD157E000F4677 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D53149B91BDD157E000F4677 /* Build configuration list for PBXProject "InputFix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D53149B51BDD157E000F4677;
+			productRefGroup = D53149BF1BDD157E000F4677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D53149BD1BDD157E000F4677 /* InputFix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D53149BA1BDD157E000F4677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53149C41BDD157E000F4677 /* InputFix.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D53149C51BDD157E000F4677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/include/**";
+			};
+			name = Debug;
+		};
+		D53149C61BDD157E000F4677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/include/**";
+			};
+			name = Release;
+		};
+		D53149C81BDD157E000F4677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = inputfix;
+			};
+			name = Debug;
+		};
+		D53149C91BDD157E000F4677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = inputfix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D53149B91BDD157E000F4677 /* Build configuration list for PBXProject "InputFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53149C51BDD157E000F4677 /* Debug */,
+				D53149C61BDD157E000F4677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53149C71BDD157E000F4677 /* Build configuration list for PBXNativeTarget "InputFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53149C81BDD157E000F4677 /* Debug */,
+				D53149C91BDD157E000F4677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D53149B61BDD157E000F4677 /* Project object */;
+}
